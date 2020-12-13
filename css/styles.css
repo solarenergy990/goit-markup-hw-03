@@ -24,12 +24,30 @@ h4,
 h5,
 h6 {
   color: var(--secondary-text-colour);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .list {
   list-style: none;
+  padding-inline-start: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
+.header {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
 /* site nav*/
 .site-nav .link {
   color: var(--secondary-text-colour);
@@ -90,6 +108,8 @@ h6 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  padding-top: 200px;
 }
 .hero-button {
   background-color: var(--accent);
@@ -103,8 +123,16 @@ h6 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  border-style: unset;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
 }
 /* section */
+.section {
+  background-color: #2f303a;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -118,12 +146,18 @@ h6 {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 .features-article {
   font-weight: var(--primary-text-weight);
   font-size: var(--primary-text-size);
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 .portraits-title {
   font-weight: 500;
