@@ -296,6 +296,8 @@ ul {
 
 .example-description {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .examples {
   display: flex;
@@ -337,10 +339,12 @@ ul {
   flex-wrap: wrap;
   margin: 0;
 }
+.portfolio-example img {
+  display: block;
+}
 .portfolio-example {
   width: 370px;
   background: var(--main-white);
-  border: 1px solid #eeeeee;
 }
 .portfolio-example:not(:nth-child(3n)) {
   margin-right: 30px;
