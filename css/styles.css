@@ -189,7 +189,13 @@ ul {
   margin: auto;
 }
 /* section */
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.advantages {
+  padding-bottom: 0;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -198,7 +204,6 @@ ul {
   letter-spacing: 0.03em;
 
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 .features-title {
   font-weight: 700;
@@ -207,7 +212,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  padding-top: 94px;
   margin-bottom: 10px;
 }
 
@@ -278,9 +282,6 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  padding-top: 20px;
-  padding-left: 24px;
 }
 .example-text {
   font-style: normal;
@@ -290,13 +291,15 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-text-colour);
 
-  padding-left: 24px;
-  padding-bottom: 20px;
+  margin: 0;
+}
+
+.example-description {
+  padding: 20px 24px;
 }
 .examples {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .examples li:not(:last-child) {
@@ -315,7 +318,6 @@ ul {
 .portraits {
   display: flex;
   align-items: center;
-  padding-bottom: 94px;
 }
 
 .portraits li:not(:last-child) {
@@ -325,7 +327,6 @@ ul {
 .categories {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .categories li:not(:last-child) {
@@ -334,7 +335,6 @@ ul {
 .our-projects {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
   margin: 0;
 }
 .portfolio-example {
@@ -352,12 +352,16 @@ ul {
 /*footer*/
 .footer {
   background-color: var(--hero-footer-colour);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
-  padding-top: 60px;
+  color: var(--main-white);
+
   margin-bottom: 20px;
-  padding-bottom: 0px;
+  margin-right: 0;
+  padding: 0;
 }
 .address {
   color: var(--main-white);
@@ -373,9 +377,7 @@ ul {
 .footer-contacts li:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-contacts {
-  padding-bottom: 60px;
-}
+
 .footer-link {
   color: var(--footer-link-colour);
 
@@ -384,7 +386,4 @@ ul {
   font-size: var(--primary-text-size);
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
-.footer .logo {
-  color: var(--main-white);
 }
